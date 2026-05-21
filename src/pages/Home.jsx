@@ -91,12 +91,13 @@ export default function Home() {
   const [pendingBadges, setPendingBadges] = useState([]);
 
   useEffect(() => {
-    db.auth.me().then(u => {
-      if (u) setMyName(u.full_name || u.email?.split("@")[0] || "You");
-    }).catch(() => {
-      setMyName(progress?.guestName || "Guest");
+  import('../lib/supabaseClient').then(({ supabase }) => {
+    supabase.auth.getUser().then(({ data: { user } }) => {
+      if (user) setMyName(user.user_metadata?.full_name || user.email?.split("@")[0] || "You");
+      else setMyName(progress?.guestName || "Guest");
     });
-  }, []);
+  });
+}, []);
 
   const part2Unlocked = (progress.owned_items || []).includes('part2-unlocked');
   const part2Available = (progress.owned_items || []).includes('part2-portal') || part2Unlocked;
