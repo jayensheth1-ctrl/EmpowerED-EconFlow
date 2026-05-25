@@ -1,974 +1,620 @@
+// Part 3: The Magic of Saving (Lessons 9–12)
+// Part 4: Intro to Credit & Debt (Lessons 13–15)
+// Part 5: Growing Wealth & Big Picture Thinking (Lessons 16–20)
+
 export const part2Units = [
   {
-    id: "unit-5",
-    title: "Global Trade Empire",
-    description: "Master international economics",
+    id: "unit-3",
+    title: "The Magic of Saving",
+    description: "Shift from short-term consumer to long-term saver",
     color: "from-violet-500 to-purple-700",
     part2: true,
     lessons: [
       {
-        id: "5-1",
-        title: "How Countries Trade",
-        studyBrief: "Countries trade because no single nation can produce everything efficiently. The key concept is comparative advantage — a country should specialize in what it produces most efficiently relative to others, then trade for the rest. This creates mutual gains even if one country is better at producing everything. Trade creates a surplus of cheaper imported goods for consumers, but can hurt domestic industries. A trade surplus means you export more than you import; a trade deficit means the opposite.",
+        id: "3-1",
+        title: "Why Saving Money Matters",
+        studyBrief: "Saving money is about more than just having a bigger bank balance — it's about buying yourself freedom and choices. Delayed gratification is the ability to resist the temptation of an immediate reward in favor of a larger, more valuable reward later. Studies show that people who practice delayed gratification consistently outperform those who don't — in finances, careers, and life. Opportunity cost is what you give up when you make a choice: spending $50 today means giving up $50 (plus its future growth) for something else. Every purchase is a trade-off. Savers have options; people with no savings are stuck in whatever situation they're in.",
         questions: [
           {
             type: "multiple_choice",
-            question: "What is 'comparative advantage' in trade?",
+            question: "What is 'delayed gratification' in the context of saving?",
             options: [
-              "A country produces what it's relatively best at making",
-              "When one country beats all others in every product",
-              "Having the biggest army to enforce trade deals",
-              "Charging the highest prices for exports"
+              "Resisting a small reward now to gain a larger benefit later",
+              "Waiting until payday to make a purchase",
+              "Saving money only during the holidays",
+              "Buying things on layaway rather than credit"
             ],
             correct: 0,
-            explanation: "Comparative advantage means countries specialize in goods they produce most efficiently relative to others, then trade — creating gains for everyone."
+            explanation: "Delayed gratification is one of the most powerful predictors of financial success — choosing tomorrow's freedom over today's impulse."
           },
           {
             type: "true_false",
-            question: "Free trade between countries generally lowers prices for consumers.",
+            question: "Having savings gives you more choices and options in life.",
             correct: true,
-            explanation: "More competition from global suppliers pushes prices down — great news for shoppers!"
+            explanation: "Savings = options. With a financial cushion, you can leave a bad job, handle emergencies, or seize opportunities. Without it, you're stuck."
           },
           {
             type: "multiple_choice",
-            question: "What is a trade deficit?",
+            question: "What is 'opportunity cost'?",
             options: [
-              "When a country imports more than it exports",
-              "When exports exceed imports",
-              "A type of currency devaluation",
-              "A government penalty on foreign goods"
+              "What you give up when you choose to spend money one way instead of another",
+              "The cost of missing a sale at your favorite store",
+              "The fee your bank charges for missed payments",
+              "The price difference between two products"
             ],
             correct: 0,
-            explanation: "A trade deficit means a country is buying more from the world than it's selling — money flows out."
+            explanation: "Every financial choice has an opportunity cost — spending $100 on clothes means giving up $100 (and its potential growth) for savings or investing."
           },
           {
             type: "word_bank",
-            question: "Countries ___ goods they produce cheaply and ___ goods others make better.",
-            blanks: ["export", "import"],
-            options: ["export", "import", "hoard", "destroy", "tax"],
-            explanation: "Export = sell abroad. Import = buy from abroad. Trade benefits everyone by letting each country focus on its strengths!"
-          },
-          {
-            type: "multiple_choice",
-            question: "Which of these is an example of comparative advantage?",
-            options: [
-              "Brazil specializes in coffee because it grows best there",
-              "A country banning all foreign products",
-              "Two countries producing identical goods",
-              "A government printing more money to buy imports"
-            ],
-            correct: 0,
-            explanation: "Brazil's climate makes it relatively more efficient at coffee production — a classic comparative advantage example."
+            question: "Saving money provides financial ___ and the ability to handle ___ without going into debt.",
+            blanks: ["freedom", "emergencies"],
+            options: ["freedom", "stress", "emergencies", "profits", "loans"],
+            explanation: "Financial freedom means having choices. Emergency readiness means surprises don't derail your entire financial plan."
           },
           {
             type: "true_false",
-            question: "A trade surplus always means a country's economy is stronger than one with a deficit.",
+            question: "People who spend all their income and save nothing have just as many life options as people who save consistently.",
             correct: false,
-            explanation: "Not necessarily! The US has run trade deficits for decades while maintaining the world's largest economy. It reflects consumption patterns, not just economic health."
+            explanation: "Savings gives you leverage — options to change jobs, move, start a business, or weather setbacks. No savings means being trapped by circumstances."
+          }
+        ]
+      },
+      {
+        id: "3-2",
+        title: "Building Your Emergency Fund",
+        studyBrief: "Life is unpredictable. A broken phone screen, a flat tire, or unexpected medical expense can derail your entire budget if you have no safety net. An emergency fund is money set aside in an easily accessible account for unexpected financial crises only — not wants. Financial experts recommend 3-6 months of living expenses. For a 7th grader, start small: even $50-$200 in an emergency fund provides real peace of mind. The key rules: keep it in a separate savings account so you're not tempted to spend it, and replenish it immediately after using it. Never use it for non-emergencies.",
+        questions: [
+          {
+            type: "multiple_choice",
+            question: "What qualifies as an appropriate use of an emergency fund?",
+            options: [
+              "An unexpected car repair or medical expense",
+              "Buying the new gaming console that just came out",
+              "Going on a spontaneous trip with friends",
+              "Buying birthday gifts for everyone in your family"
+            ],
+            correct: 0,
+            explanation: "Emergency funds are for genuine unexpected expenses — not wants. Protecting this fund is critical to your financial stability."
+          },
+          {
+            type: "true_false",
+            question: "An emergency fund should be kept in a separate account from your everyday spending money.",
+            correct: true,
+            explanation: "Separation creates a psychological barrier — money in a separate savings account is much less likely to be casually spent."
+          },
+          {
+            type: "multiple_choice",
+            question: "How much should a fully-funded emergency fund cover?",
+            options: [
+              "3 to 6 months of living expenses",
+              "Exactly one month's expenses",
+              "At least 2 full years of expenses",
+              "Only your rent or housing payment"
+            ],
+            correct: 0,
+            explanation: "3-6 months of expenses covers most crises — job loss, medical emergencies, or major repairs — without falling into debt."
+          },
+          {
+            type: "word_bank",
+            question: "An emergency fund is your financial ___ — protecting you from unexpected ___ that can derail your budget.",
+            blanks: ["cushion", "expenses"],
+            options: ["cushion", "reward", "expenses", "profits", "income"],
+            explanation: "Think of it as a financial shock absorber. Life throws surprises — your emergency fund absorbs the impact so you don't have to borrow."
+          },
+          {
+            type: "true_false",
+            question: "After using money from your emergency fund, you should replenish it as soon as possible.",
+            correct: true,
+            explanation: "An emergency fund only protects you if it has money in it. Rebuilding it immediately restores your safety net for the next crisis."
+          }
+        ]
+      },
+      {
+        id: "3-3",
+        title: "High-Yield Savings Accounts & Where to Keep Your Money",
+        studyBrief: "Not all savings accounts are equal. Traditional brick-and-mortar bank savings accounts often pay 0.01% interest — nearly nothing. High-Yield Savings Accounts (HYSAs), typically offered by online banks, often pay 4-5% or more. On $1,000, that's the difference between earning $0.10 vs. $40-50 per year — just by choosing a smarter account. The reason online banks pay more: they have lower overhead (no physical branches). Your money is still FDIC-insured and just as safe. Meanwhile, inflation (the general rise in prices) erodes the purchasing power of cash not earning at least the inflation rate — leaving money in a low-interest account actually loses you money in real terms.",
+        questions: [
+          {
+            type: "multiple_choice",
+            question: "Why do high-yield savings accounts (HYSAs) typically pay higher interest rates?",
+            options: [
+              "Online banks have lower overhead costs without physical branches",
+              "They take more risks with your deposits",
+              "They are not FDIC insured so they offer higher rates",
+              "They require a minimum balance of $100,000"
+            ],
+            correct: 0,
+            explanation: "Online banks pass their savings (from no physical branches) to you as higher interest rates. Your money is just as safe — still FDIC insured."
+          },
+          {
+            type: "true_false",
+            question: "Leaving money in a savings account earning 0.01% interest while inflation runs at 3% means your money is losing purchasing power.",
+            correct: true,
+            explanation: "If your savings earn less than inflation, you're losing real value. $1,000 today buys more than $1,000 in 5 years at 3% inflation."
+          },
+          {
+            type: "multiple_choice",
+            question: "What is the main advantage of a high-yield savings account over a regular savings account?",
+            options: [
+              "It earns significantly more interest on your money",
+              "It has no withdrawal limits or restrictions",
+              "It comes with a free debit card for spending",
+              "It is only available to adults with jobs"
+            ],
+            correct: 0,
+            explanation: "The interest rate difference is massive — 4-5% vs 0.01%. On larger balances over time, this difference compounds into thousands of dollars."
+          },
+          {
+            type: "word_bank",
+            question: "___ erodes the purchasing power of cash over time, making it important to earn an ___ rate above inflation.",
+            blanks: ["Inflation", "interest"],
+            options: ["Inflation", "Savings", "interest", "credit", "debt"],
+            explanation: "Money sitting idle loses value to inflation. A HYSA helps your money at least keep pace with rising prices."
+          },
+          {
+            type: "true_false",
+            question: "Online high-yield savings accounts are not FDIC insured and therefore riskier than traditional bank accounts.",
+            correct: false,
+            explanation: "Most online banks offering HYSAs are FDIC insured up to $250,000 — your money is just as protected as at any major bank."
+          }
+        ]
+      },
+      {
+        id: "3-4",
+        title: "The Power of Compound Interest & the Rule of 72",
+        studyBrief: "Compound interest is the most powerful force in personal finance. Simple interest earns only on your original deposit. Compound interest earns interest on BOTH your original deposit AND all the interest already earned — your interest earns interest. This creates exponential growth that accelerates over time. The Rule of 72 is a mental math shortcut: divide 72 by your interest rate to find how many years to double your money. At 8%, your money doubles every 9 years. Starting at age 14 instead of 24 can mean the difference between retiring comfortably and working forever. Einstein reportedly called compound interest the eighth wonder of the world.",
+        questions: [
+          {
+            type: "multiple_choice",
+            question: "What makes compound interest more powerful than simple interest?",
+            options: [
+              "You earn interest on both your principal AND previously earned interest",
+              "The interest rate is always higher with compound interest",
+              "Banks charge you less in fees with compound interest",
+              "Compound interest is guaranteed to double your money every year"
+            ],
+            correct: 0,
+            explanation: "Compound interest snowballs — your interest earns interest, which earns more interest. The longer you wait, the faster it grows."
+          },
+          {
+            type: "true_false",
+            question: "Starting to save and invest at age 14 instead of age 24 gives you a massive financial advantage.",
+            correct: true,
+            explanation: "Starting 10 years earlier means roughly 2-3x more wealth at retirement thanks to compound growth. Time is the most valuable ingredient."
+          },
+          {
+            type: "multiple_choice",
+            question: "Using the Rule of 72, at a 9% annual return, how long does it take to double your money?",
+            options: ["8 years", "9 years", "72 years", "18 years"],
+            correct: 0,
+            explanation: "72 ÷ 9 = 8 years. The Rule of 72 gives a quick estimate — no calculator needed to compare investment options."
+          },
+          {
+            type: "word_bank",
+            question: "Compound interest is so powerful because your ___ earns ___, which then earns even more interest.",
+            blanks: ["interest", "interest"],
+            options: ["interest", "principal", "debt", "taxes"],
+            explanation: "This self-reinforcing loop — interest on interest — is what creates exponential growth over long time periods."
+          },
+          {
+            type: "true_false",
+            question: "Compound interest grows your money at a steady, linear rate over time.",
+            correct: false,
+            explanation: "Compound growth is exponential, not linear — it starts slow but accelerates dramatically. The gains in year 30 dwarf the gains in year 1."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "unit-4",
+    title: "Intro to Credit & Debt",
+    description: "Demystify credit before credit card offers flood in",
+    color: "from-amber-500 to-red-600",
+    part2: true,
+    lessons: [
+      {
+        id: "4-1",
+        title: "Credit Scores Decoded: FICO & What Actually Matters",
+        studyBrief: "A credit score is essentially your financial reputation number — it tells lenders how trustworthy you are with borrowed money. FICO scores range from 300-850: above 750 is excellent; below 580 is poor. Your score is calculated from: Payment History (35%) — do you pay on time? Credit Utilization (30%) — what percentage of available credit do you use? Length of Credit History (15%) — how long have you had accounts? New Credit (10%) and Credit Mix (10%). A low score can cost you thousands — higher interest rates on car loans, mortgages, and even affect apartment applications and job offers. Building credit early and carefully is one of the best financial moves a young person can make.",
+        questions: [
+          {
+            type: "multiple_choice",
+            question: "What is a credit score?",
+            options: [
+              "A number representing how reliably you repay borrowed money",
+              "The total amount of money you have in all bank accounts",
+              "A grade that measures your financial knowledge",
+              "The interest rate your bank charges on loans"
+            ],
+            correct: 0,
+            explanation: "Your credit score is your financial reputation — it tells lenders how likely you are to repay debts based on your past behavior."
+          },
+          {
+            type: "true_false",
+            question: "Your payment history is the single most important factor in your credit score.",
+            correct: true,
+            explanation: "Payment history makes up 35% of your FICO score — consistently paying on time is the most powerful thing you can do to build great credit."
+          },
+          {
+            type: "multiple_choice",
+            question: "A low credit score can affect which of the following?",
+            options: [
+              "All of the above — interest rates, apartment applications, and some jobs",
+              "Only your ability to get a credit card",
+              "Only the interest rate on car loans",
+              "Nothing — credit scores only affect mortgages"
+            ],
+            correct: 0,
+            explanation: "A poor credit score ripples through many areas of life — it's not just about credit cards. Landlords and employers check it too."
+          },
+          {
+            type: "word_bank",
+            question: "FICO scores range from ___ to ___, with higher scores indicating better creditworthiness.",
+            blanks: ["300", "850"],
+            options: ["300", "500", "850", "1000", "100"],
+            explanation: "300-579 is poor, 580-669 is fair, 670-739 is good, 740-799 is very good, and 800+ is exceptional."
+          },
+          {
+            type: "true_false",
+            question: "Credit utilization — how much of your available credit you use — has no impact on your credit score.",
+            correct: false,
+            explanation: "Credit utilization makes up 30% of your score. Experts recommend keeping it below 30% — using less credit shows lenders you're not over-reliant on borrowing."
+          }
+        ]
+      },
+      {
+        id: "4-2",
+        title: "Credit Cards as Financial Tools: Rewards, Protections & Strategic Use",
+        studyBrief: "Credit cards are not free money — but used correctly, they're powerful financial tools. The golden rule: pay your full balance every single month. If you do, you pay zero interest and effectively get a 30-day interest-free loan every month. Many cards offer rewards (1-5% cash back or travel points) on every purchase — free benefits just for using the card responsibly. Credit cards also offer consumer protections (fraud liability is $0 for the cardholder), purchase protection, and travel insurance. The danger: carrying a balance and paying only the minimum. A $1,000 balance at 24% APR with minimum payments can take 5+ years to pay off and cost hundreds in interest.",
+        questions: [
+          {
+            type: "multiple_choice",
+            question: "What is the golden rule of responsible credit card use?",
+            options: [
+              "Pay the full balance every month to avoid paying any interest",
+              "Only use the card for large purchases over $100",
+              "Always pay just the minimum payment to preserve cash",
+              "Use the card for emergencies only and keep it frozen otherwise"
+            ],
+            correct: 0,
+            explanation: "Pay in full every month and you'll pay zero interest — essentially a free 30-day loan with rewards on top. This is the key to using credit cards profitably."
+          },
+          {
+            type: "true_false",
+            question: "Carrying a balance and paying only the minimum on a credit card is an expensive financial mistake.",
+            correct: true,
+            explanation: "High APRs (often 20-30%) mean a $1,000 balance can cost hundreds in interest and take years to pay off with minimum payments only."
+          },
+          {
+            type: "multiple_choice",
+            question: "What is one major consumer protection advantage of using a credit card vs. a debit card?",
+            options: [
+              "Credit card fraud liability is typically $0 for the cardholder",
+              "Credit cards charge lower fees at ATMs",
+              "Credit cards automatically convert to cash if the bank fails",
+              "Credit cards come with free FDIC insurance"
+            ],
+            correct: 0,
+            explanation: "If your credit card is used fraudulently, you're protected — dispute the charge and it's reversed. Debit card fraud can drain your actual bank account."
+          },
+          {
+            type: "word_bank",
+            question: "Credit card ___ programs give you free cash or points just for using the card — as long as you pay the ___ balance every month.",
+            blanks: ["rewards", "full"],
+            options: ["rewards", "fees", "full", "minimum", "annual"],
+            explanation: "Rewards programs are only profitable if you never carry a balance. Otherwise, the interest you pay will far exceed any rewards you earn."
+          },
+          {
+            type: "true_false",
+            question: "Credit cards are inherently dangerous and should never be used by anyone.",
+            correct: false,
+            explanation: "Used responsibly (paid in full monthly), credit cards build your credit score, earn rewards, and provide consumer protections. The tool isn't dangerous — misusing it is."
+          }
+        ]
+      },
+      {
+        id: "4-3",
+        title: "Loans, Borrowing & Interest Rates",
+        studyBrief: "A loan lets you use money now in exchange for paying it back later — with interest. The principal is the original amount borrowed. Interest is the fee for borrowing, expressed as an APR (Annual Percentage Rate). Fixed interest rates stay the same throughout the loan; variable rates can change. Your monthly payment depends on the principal, interest rate, and loan term (length). The longer the term, the lower the monthly payment — but the more total interest you pay. Student loans, car loans, and mortgages are the three loans young adults will encounter most. Comparing total interest cost — not just monthly payment — is the smart way to evaluate any loan.",
+        questions: [
+          {
+            type: "multiple_choice",
+            question: "What is the 'principal' of a loan?",
+            options: [
+              "The original amount of money borrowed",
+              "The monthly interest payment",
+              "The total interest paid over the loan life",
+              "The lender's profit on the loan"
+            ],
+            correct: 0,
+            explanation: "Principal is what you actually borrowed. Interest is the extra you pay on top. Your payments gradually reduce the principal."
+          },
+          {
+            type: "true_false",
+            question: "A longer loan term always means you pay less total money overall.",
+            correct: false,
+            explanation: "Longer terms lower monthly payments but increase total interest paid. A 60-month car loan costs significantly more in interest than a 36-month loan."
+          },
+          {
+            type: "multiple_choice",
+            question: "What is the difference between a fixed and variable interest rate?",
+            options: [
+              "Fixed stays the same; variable can change over time based on market rates",
+              "Fixed is always higher; variable is always lower",
+              "Fixed is for mortgages only; variable is for all other loans",
+              "They mean exactly the same thing to borrowers"
+            ],
+            correct: 0,
+            explanation: "Fixed rates give predictability — your payment never changes. Variable rates can go up or down, creating uncertainty in your budget."
+          },
+          {
+            type: "word_bank",
+            question: "APR stands for ___ Percentage Rate — the annual cost of ___ expressed as a percentage.",
+            blanks: ["Annual", "borrowing"],
+            options: ["Annual", "Applied", "borrowing", "saving", "investing"],
+            explanation: "APR is the standard way to compare loan costs. Higher APR = more expensive loan. Always compare APRs, not just monthly payments."
+          },
+          {
+            type: "true_false",
+            question: "When comparing loans, you should focus only on the monthly payment, not the total interest cost.",
+            correct: false,
+            explanation: "A low monthly payment can hide an enormous total cost. Always calculate: monthly payment × number of payments = total cost, then subtract the principal to see total interest."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "unit-5",
+    title: "Growing Wealth & Big Picture Thinking",
+    description: "Investing basics, career planning, and financial freedom",
+    color: "from-emerald-500 to-teal-700",
+    part2: true,
+    lessons: [
+      {
+        id: "5-1",
+        title: "Saving vs. Investing: When Each Makes Sense",
+        studyBrief: "Saving and investing are not the same thing. Saving means keeping money in safe, accessible accounts (like a savings account) for short-term goals or emergencies. Investing means putting money into assets like stocks, bonds, or real estate with the expectation of growth — but accepting some risk of loss. The key factors: time horizon (when do you need the money?), liquidity (how quickly can you access it?), and risk tolerance (can you handle temporary losses?). Money needed within 1-3 years should be saved, not invested — markets can drop. Money not needed for 5+ years is a candidate for investing, where compound growth can work its magic.",
+        questions: [
+          {
+            type: "multiple_choice",
+            question: "Money you'll need within the next 1-2 years should primarily be:",
+            options: [
+              "Kept in a safe, accessible savings account",
+              "Invested in the stock market for maximum growth",
+              "Put into cryptocurrency for fast returns",
+              "Spent now since it can't grow meaningfully"
+            ],
+            correct: 0,
+            explanation: "Short-term money belongs in savings — markets can drop 20-40% right when you need the money. Don't invest what you can't afford to lose temporarily."
+          },
+          {
+            type: "true_false",
+            question: "Investing always guarantees higher returns than a savings account.",
+            correct: false,
+            explanation: "Investing offers higher POTENTIAL returns but carries risk — your investments can lose value. Savings accounts offer lower but guaranteed returns."
+          },
+          {
+            type: "multiple_choice",
+            question: "What is 'liquidity' in personal finance?",
+            options: [
+              "How quickly you can convert an asset to cash without losing significant value",
+              "The total amount of cash in your bank accounts",
+              "The interest rate on a savings account",
+              "A measure of how much debt you have"
+            ],
+            correct: 0,
+            explanation: "High liquidity = easy to access quickly. A savings account is highly liquid; a house is illiquid (takes months to sell)."
+          },
+          {
+            type: "word_bank",
+            question: "Money needed within 3 years should be ___, while money not needed for 5+ years can potentially be ___.",
+            blanks: ["saved", "invested"],
+            options: ["saved", "spent", "invested", "donated", "hidden"],
+            explanation: "Time horizon is the key deciding factor. Short-term money needs safety and liquidity. Long-term money can tolerate market volatility for higher growth."
+          },
+          {
+            type: "true_false",
+            question: "Risk tolerance refers to how much financial risk you can comfortably handle without panicking.",
+            correct: true,
+            explanation: "Your risk tolerance affects your investment choices. Investing beyond your risk tolerance leads to panic-selling at the worst possible time."
           }
         ]
       },
       {
         id: "5-2",
-        title: "Currency & Exchange Rates",
-        studyBrief: "Every country (or region) has its own currency, and exchange rates determine how much of one currency you get for another. A stronger currency makes your imports cheaper but exports more expensive for foreign buyers. Exchange rates fluctuate constantly based on interest rates, inflation, trade flows, and investor confidence. The Foreign Exchange (Forex) market is the world's largest financial market, trading over $7.5 trillion per day. Central banks sometimes intervene to stabilize their currency.",
+        title: "Why Invest? Inflation & The Time Value of Money",
+        studyBrief: "Inflation is the silent wealth destroyer. When prices rise 3% per year, the purchasing power of your money shrinks every year you don't invest it. $10,000 under a mattress for 20 years loses nearly half its purchasing power. The Time Value of Money principle states that a dollar today is worth more than a dollar in the future — because today's dollar can be invested to grow. The stock market has historically returned an average of ~10% per year (before inflation). This means money invested in broad market index funds roughly doubles every 7 years. Not investing is a guaranteed way to fall behind inflation — and give up decades of compounding growth.",
         questions: [
           {
             type: "multiple_choice",
-            question: "What is a currency exchange rate?",
+            question: "What is inflation?",
             options: [
-              "The price of one currency in terms of another",
-              "A bank fee for currency deposits",
-              "The interest rate on international loans",
-              "The speed at which governments print money"
+              "The general rise in prices over time, reducing what your money can buy",
+              "When the stock market goes up in value",
+              "A government tax on savings accounts",
+              "When interest rates at banks decrease"
             ],
             correct: 0,
-            explanation: "Exchange rates tell you how much of one currency you get for another, e.g. 1 USD = 0.92 EUR."
+            explanation: "Inflation means $100 today buys more than $100 in 10 years. This is why just saving cash is not enough — you need your money to grow faster than inflation."
           },
           {
             type: "true_false",
-            question: "A stronger home currency makes your country's exports cheaper for foreigners.",
+            question: "Keeping all your money in cash under a mattress is a risk-free strategy for preserving wealth.",
             correct: false,
-            explanation: "A stronger currency actually makes exports MORE expensive abroad — foreigners need more of their own currency to buy your goods, potentially hurting export sales."
+            explanation: "Cash loses purchasing power to inflation every year. In 20 years at 3% inflation, $10,000 buys roughly what $5,500 buys today. 'Risk-free' cash storage is actually guaranteed loss."
           },
           {
             type: "multiple_choice",
-            question: "If USD strengthens against EUR, what happens to American tourists in Europe?",
-            options: [
-              "Their dollars buy more euros — travel becomes cheaper!",
-              "Travel to Europe becomes more expensive",
-              "Nothing changes — exchange rates don't affect tourists",
-              "Americans can no longer use dollars abroad"
-            ],
+            question: "The historical average annual return of the US stock market (S&P 500) is approximately:",
+            options: ["~10% per year", "~2% per year", "~25% per year", "~0.5% per year"],
             correct: 0,
-            explanation: "A stronger dollar buys more euros, making European goods, hotels, and food cheaper for American travelers."
+            explanation: "The S&P 500 has returned roughly 10% annually over the long run (before inflation). At that rate, money doubles approximately every 7 years."
           },
           {
             type: "word_bank",
-            question: "Forex is short for ___ exchange — the world's ___ financial market.",
-            blanks: ["foreign", "largest"],
-            options: ["foreign", "local", "largest", "smallest", "digital"],
-            explanation: "The Foreign Exchange (Forex) market trades $7.5 trillion per day — far larger than stock markets!"
-          },
-          {
-            type: "multiple_choice",
-            question: "Which factor most directly causes a currency to appreciate (gain value)?",
-            options: [
-              "Rising interest rates attracting foreign investment",
-              "High government debt levels",
-              "Rapid money printing by the central bank",
-              "A large trade deficit"
-            ],
-            correct: 0,
-            explanation: "Higher interest rates offer better returns for investors holding that currency, increasing demand and pushing its value up."
+            question: "The time value of money means a dollar ___ is worth more than a dollar in the ___ because it can be invested to grow.",
+            blanks: ["today", "future"],
+            options: ["today", "yesterday", "future", "past", "saved"],
+            explanation: "Present dollars have more value because of their earning potential. This is why starting to invest early is so powerful."
           },
           {
             type: "true_false",
-            question: "The Forex market operates 24 hours a day, 5 days a week.",
+            question: "Investing in the stock market protects the purchasing power of your money better than keeping it in cash long-term.",
             correct: true,
-            explanation: "Currency markets never sleep on weekdays — they trade around the clock across Tokyo, London, and New York time zones."
+            explanation: "Over the long run, stock market returns significantly outpace inflation — growing your wealth in real terms, not just nominally."
           }
         ]
       },
       {
         id: "5-3",
-        title: "Tariffs & Globalization",
-        studyBrief: "Tariffs are taxes placed on imported goods, making them more expensive to protect domestic industries. While tariffs can shield local jobs short-term, they often raise prices for consumers and can trigger retaliatory tariffs from other countries — a trade war. Globalization has deeply interconnected supply chains: a single iPhone uses components from 40+ countries. The World Trade Organization (WTO) sets international trade rules to ensure fair competition. Trade agreements like NAFTA/USMCA reduce barriers between member nations.",
+        title: "Asset Classes Simplified: Stocks, Bonds & Index Funds",
+        studyBrief: "An asset class is a group of similar investments. Stocks represent ownership in companies — you buy a tiny piece of a business. Bonds are loans you make to companies or governments — they pay you back with interest. Stocks have higher potential returns but more volatility; bonds are more stable but grow slowly. An index fund is a basket of many stocks (like all 500 companies in the S&P 500) in a single investment. Index funds offer instant diversification — spreading risk across hundreds of companies. Even Warren Buffett recommends index funds for most people. Single stocks are risky; if the company fails, you could lose everything. Diversification — not putting all your eggs in one basket — is the core principle of smart investing.",
         questions: [
           {
             type: "multiple_choice",
-            question: "What is a tariff?",
+            question: "What does owning a stock represent?",
             options: [
-              "A tax on imported goods",
-              "A type of high-yield savings account",
-              "An international trade agreement",
-              "A currency exchange processing fee"
+              "Owning a tiny piece of a company and sharing in its profits and losses",
+              "Lending money to a company that promises to pay you back",
+              "Buying a government guarantee of fixed returns",
+              "Depositing money in a special high-interest bank account"
             ],
             correct: 0,
-            explanation: "Tariffs make imported goods more expensive, protecting domestic industries but often raising consumer prices."
+            explanation: "Shareholders are part-owners. When the company does well, stock value rises. When it struggles, the stock can fall — including to zero if the company fails."
           },
           {
             type: "true_false",
-            question: "Globalization has made supply chains completely independent of other countries.",
-            correct: false,
-            explanation: "Globalization has made supply chains MORE interconnected, not independent — countries rely heavily on each other for components, raw materials, and finished goods."
-          },
-          {
-            type: "multiple_choice",
-            question: "Which organization oversees international trade rules?",
-            options: [
-              "World Trade Organization (WTO)",
-              "The United Nations (UN)",
-              "NATO",
-              "World Health Organization (WHO)"
-            ],
-            correct: 0,
-            explanation: "The WTO sets and enforces global trade rules to ensure fair competition between countries and resolve disputes."
-          },
-          {
-            type: "multiple_choice",
-            question: "What is a likely consequence of a trade war (both countries raising tariffs on each other)?",
-            options: [
-              "Higher prices for consumers in both countries",
-              "Lower prices as competition increases",
-              "Faster economic growth globally",
-              "Stronger currencies for both sides"
-            ],
-            correct: 0,
-            explanation: "Trade wars typically hurt consumers in both countries through higher prices, and can slow global economic growth."
-          },
-          {
-            type: "true_false",
-            question: "Free trade agreements always benefit every single worker in participating countries.",
-            correct: false,
-            explanation: "Free trade creates overall gains but also losers — workers in industries that face more foreign competition may lose jobs, even as consumers benefit from lower prices."
-          },
-          {
-            type: "word_bank",
-            question: "A trade ___ between countries reduces or eliminates ___ on goods traded between them.",
-            blanks: ["agreement", "tariffs"],
-            options: ["agreement", "dispute", "tariffs", "profits", "currencies"],
-            explanation: "Trade agreements like USMCA lower or eliminate tariffs between member nations, boosting cross-border commerce."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: "unit-6",
-    title: "Crypto & Digital Finance",
-    description: "Navigate the digital money revolution",
-    color: "from-cyan-500 to-blue-700",
-    part2: true,
-    lessons: [
-      {
-        id: "6-1",
-        title: "What is Blockchain?",
-        studyBrief: "Blockchain is a digital ledger — a record of transactions distributed across thousands of computers worldwide. Unlike a bank's private database, no single entity controls it. Each 'block' contains a batch of transactions; once verified and added, it can't be altered without changing every subsequent block (making fraud extremely difficult). Bitcoin, created in 2009, was the first major blockchain application. Miners use powerful computers to verify transactions and earn newly created coins as a reward — this is called 'Proof of Work.'",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "What is a blockchain?",
-            options: [
-              "A digital ledger recording transactions that can't be easily altered",
-              "A type of credit card with blockchain security",
-              "An online bank regulated by governments",
-              "A government-controlled financial system"
-            ],
-            correct: 0,
-            explanation: "A blockchain is a secure, decentralized record of transactions maintained by thousands of computers — no single point of control or failure."
-          },
-          {
-            type: "true_false",
-            question: "Bitcoin was the first major cryptocurrency.",
+            question: "An index fund automatically diversifies your investment across many companies at once.",
             correct: true,
-            explanation: "Bitcoin, created in 2009 by the pseudonymous 'Satoshi Nakamoto', launched the cryptocurrency revolution."
+            explanation: "An S&P 500 index fund owns tiny pieces of 500 companies simultaneously. If one fails, it barely affects your portfolio — diversification reduces risk dramatically."
+          },
+          {
+            type: "multiple_choice",
+            question: "Why do financial experts recommend index funds for most investors over picking individual stocks?",
+            options: [
+              "They automatically diversify risk and have lower fees than actively managed funds",
+              "Index funds guarantee you will never lose money",
+              "They always outperform every individual stock",
+              "They are only available to professional investors"
+            ],
+            correct: 0,
+            explanation: "Studies show most actively managed funds underperform simple index funds over time, especially after fees. Index funds are low-cost, diversified, and historically reliable."
           },
           {
             type: "word_bank",
-            question: "Blockchain is ___ meaning no single person or bank ___ it.",
-            blanks: ["decentralized", "controls"],
-            options: ["decentralized", "centralized", "controls", "ignores", "invests"],
-            explanation: "Decentralization spreads power across thousands of nodes — there's no CEO of Bitcoin, no headquarters to shut down."
-          },
-          {
-            type: "multiple_choice",
-            question: "What is 'mining' in cryptocurrency?",
-            options: [
-              "Solving complex math problems to verify transactions and earn crypto",
-              "Physically digging for precious metals",
-              "Selling cryptocurrency at a profit",
-              "Storing crypto in a hardware wallet"
-            ],
-            correct: 0,
-            explanation: "Miners use powerful computers to validate transactions and are rewarded with new coins — securing the network while earning income."
+            question: "Bonds are ___ you make to companies or governments — they pay you back with ___ over time.",
+            blanks: ["loans", "interest"],
+            options: ["loans", "gifts", "interest", "dividends", "equity"],
+            explanation: "When you buy a bond, you're the lender. The borrower (company or government) pays you interest and returns your principal when the bond matures."
           },
           {
             type: "true_false",
-            question: "Once data is recorded on a blockchain, it can be easily deleted or modified.",
+            question: "Putting all your savings into a single company's stock is a smart, low-risk investment strategy.",
             correct: false,
-            explanation: "Blockchain data is immutable — altering any block requires re-computing all subsequent blocks across thousands of computers simultaneously, making fraud practically impossible."
-          },
-          {
-            type: "multiple_choice",
-            question: "What makes blockchain different from a traditional bank database?",
-            options: [
-              "It's distributed across thousands of computers with no central authority",
-              "It charges higher fees than traditional banks",
-              "It's controlled by a single government",
-              "Transactions take several days to settle"
-            ],
-            correct: 0,
-            explanation: "Traditional bank databases are centralized and privately controlled. Blockchain is distributed — anyone can verify the ledger."
+            explanation: "Single-stock concentration is extremely risky — companies can and do go bankrupt. Diversification across many investments is the cornerstone of sound investing."
           }
         ]
       },
       {
-        id: "6-2",
-        title: "NFTs & Digital Ownership",
-        studyBrief: "NFT stands for Non-Fungible Token. 'Fungible' means interchangeable — one dollar equals any other dollar. 'Non-fungible' means unique and irreplaceable. NFTs use blockchain to prove digital ownership of a specific item: artwork, music, game items, or even tweets. The NFT is a digital certificate of authenticity stored on the blockchain. While anyone can view or copy a digital image, only one person holds the verified NFT ownership record. NFT markets are highly speculative — values can skyrocket or collapse rapidly.",
+        id: "5-4",
+        title: "Income Growth: Career Capital, Side Hustles & Entrepreneurship",
+        studyBrief: "The fastest way to improve your financial situation is to increase your income — not just cut expenses. Career capital means the skills, experiences, and reputation you build over time that make you more valuable to employers or clients. Investing in your own skills has the highest potential return of any investment. Side hustles are additional income streams alongside a main job — lawn mowing, babysitting, tutoring, selling crafts, or freelance work. Entrepreneurship means starting a business to solve a problem people will pay you to fix. You have abundant time and energy right now — two things most adults wish they had more of. Starting small, failing cheaply, and learning young is an enormous advantage.",
         questions: [
           {
             type: "multiple_choice",
-            question: "What does NFT stand for?",
+            question: "What is 'career capital'?",
             options: [
-              "Non-Fungible Token",
-              "New Financial Transfer",
-              "Net Fiscal Trade",
-              "National Fund Token"
+              "The skills, experiences, and reputation that make you more valuable over time",
+              "The total money you earn in a career",
+              "A type of retirement savings account for employees",
+              "The cost of college education and training"
             ],
             correct: 0,
-            explanation: "NFT = Non-Fungible Token. Non-fungible means unique and irreplaceable, unlike currency where every unit is identical."
+            explanation: "Career capital is your professional value — the more specialized skills and expertise you build, the higher your earning power becomes."
           },
           {
             type: "true_false",
-            question: "'Non-fungible' means something is unique and cannot be directly replaced by another identical item.",
+            question: "Starting a small side hustle as a teenager is a great way to learn about earning, managing money, and business.",
             correct: true,
-            explanation: "A dollar bill is fungible (any dollar = any other dollar). The Mona Lisa is non-fungible — it's totally unique and irreplaceable!"
+            explanation: "Teens who start businesses or side hustles learn financial lessons experientially — far more powerfully than reading about them. Failure stakes are low; learning is invaluable."
           },
           {
             type: "multiple_choice",
-            question: "What can be sold as an NFT?",
+            question: "Why is increasing your income arguably more impactful than just cutting expenses?",
             options: [
-              "Digital art, music, video clips, virtual game items",
-              "Only physical paintings that have been scanned",
-              "Only government-approved financial assets",
-              "Only registered domain names"
+              "Income has unlimited upside potential; expense cuts have a floor (you still need to eat and live)",
+              "Cutting expenses is impossible without a drastic lifestyle change",
+              "Income growth always happens automatically with age",
+              "Expenses don't matter once income reaches a certain level"
             ],
             correct: 0,
-            explanation: "Anything digital can become an NFT — artwork, music, game items, tweets, and more. The NFT certifies authentic ownership."
+            explanation: "You can only cut expenses so far. But income has no ceiling — skills, value creation, and entrepreneurship can multiply your earnings many times over."
           },
           {
-            type: "multiple_choice",
-            question: "If someone 'right-clicks and saves' an NFT image, what do they actually have?",
-            options: [
-              "A copy of the image, but NOT the verified ownership record",
-              "Full legal ownership of the NFT",
-              "An equally valid version of the NFT",
-              "Nothing — the image disappears from their device"
-            ],
-            correct: 0,
-            explanation: "Anyone can save a copy of an NFT image, but only the verified blockchain record proves who truly 'owns' it — like a photocopy vs. the original deed."
+            type: "word_bank",
+            question: "Investing in your own ___ and skills often produces a higher ___ than any financial investment.",
+            blanks: ["education", "return"],
+            options: ["education", "house", "return", "debt", "savings"],
+            explanation: "A skill that increases your earning power by $10K/year is worth hundreds of thousands over a career — far exceeding most investment returns."
           },
           {
             type: "true_false",
-            question: "NFT prices are stable and predictable, making them a safe investment.",
+            question: "You need to be an adult with a full-time job before you can start building entrepreneurial skills.",
             correct: false,
-            explanation: "NFT markets are highly speculative — values can rise 10,000% or collapse to near zero within months. They are considered extremely high-risk assets."
-          },
-          {
-            type: "word_bank",
-            question: "An NFT uses ___ technology to provide a verifiable proof of ___ for a digital item.",
-            blanks: ["blockchain", "ownership"],
-            options: ["blockchain", "banking", "ownership", "creation", "payment"],
-            explanation: "The blockchain acts as a permanent, public ownership certificate — solving the problem of proving who 'really' owns a digital file."
+            explanation: "Some of the most successful entrepreneurs started as teenagers — with lawn care routes, tech services, or online businesses. Youth is an advantage: low costs, lots of time, nothing to lose."
           }
         ]
       },
       {
-        id: "6-3",
-        title: "Crypto Risk & Regulation",
-        studyBrief: "Cryptocurrency is exciting but carries extreme risk. Prices can swing 50%+ in days — Bitcoin dropped 80% in 2018 and again in 2022. Unlike bank accounts, crypto has no government deposit insurance. If you lose your private key (essentially your password), your funds are gone forever. Governments worldwide are increasingly regulating crypto for consumer protection, tax compliance, and preventing money laundering. While blockchain transactions are publicly visible, investigators can trace them — 'crypto is not anonymous.'",
+        id: "5-5",
+        title: "Defining Your Enough: Values-Based Financial Planning",
+        studyBrief: "Financial independence doesn't mean being the richest person — it means having enough money that work becomes a choice, not a requirement. 'Lifestyle inflation' is the dangerous tendency to increase spending as income rises, keeping you permanently broke no matter how much you earn. True wealth is having financial freedom and security; 'looking rich' (expensive cars, designer clothes, rented luxury) is the trap that keeps high earners poor. Values-based planning asks: what do I actually want my life to look like? Then you align your spending with those answers. People who define their 'enough' — the life that genuinely satisfies them — stop the endless cycle of earning and spending and start building real, lasting wealth.",
         questions: [
           {
             type: "multiple_choice",
-            question: "Why is cryptocurrency considered high-risk?",
+            question: "What is 'lifestyle inflation'?",
             options: [
-              "Extreme price volatility and limited regulatory protection",
-              "It's only legally available in certain countries",
-              "All banks control and manipulate crypto prices",
-              "Crypto always loses value over time"
+              "Increasing your spending as your income grows, keeping you from building wealth",
+              "When the cost of living rises due to general price inflation",
+              "The strategy of spending more to attract higher-paying jobs",
+              "A reward system where you upgrade your lifestyle after each promotion"
             ],
             correct: 0,
-            explanation: "Crypto prices can swing 50%+ in days. High risk = high potential reward but also the possibility of massive losses — with no safety net."
+            explanation: "Lifestyle inflation is the silent wealth killer — earning more but spending proportionally more means never actually getting ahead financially."
           },
           {
             type: "true_false",
-            question: "Crypto transactions are completely anonymous and untraceable by governments.",
+            question: "People who drive expensive cars and wear designer clothes are always financially wealthy.",
             correct: false,
-            explanation: "Blockchain transactions are pseudonymous and publicly visible — governments increasingly use blockchain analytics to trace transactions and identify users."
+            explanation: "Many 'looking rich' people are cash-poor — financing lifestyles they can't afford. True wealth is quietly building assets, not visibly spending money."
+          },
+          {
+            type: "multiple_choice",
+            question: "What is 'financial independence'?",
+            options: [
+              "Having enough assets that work becomes a choice, not a requirement",
+              "Earning a salary of over $100,000 per year",
+              "Owning your home with no mortgage",
+              "Having zero debt of any kind"
+            ],
+            correct: 0,
+            explanation: "Financial independence means your investments and savings can cover your living expenses — so you work because you want to, not because you have to."
           },
           {
             type: "word_bank",
-            question: "A crypto ___ stores your digital coins using a private ___ you must never lose.",
-            blanks: ["wallet", "key"],
-            options: ["wallet", "bank", "key", "password", "card"],
-            explanation: "Lose your private key = lose your crypto forever. Unlike a forgotten bank password, there's no customer service to recover it!"
-          },
-          {
-            type: "multiple_choice",
-            question: "What is a 'crypto wallet' used for?",
-            options: [
-              "Storing private keys that give access to your cryptocurrency",
-              "A physical pouch for keeping USB drives",
-              "A government-issued crypto bank account",
-              "A tool for mining new cryptocurrency"
-            ],
-            correct: 0,
-            explanation: "A crypto wallet stores your private keys — it doesn't hold coins directly, but controls access to them on the blockchain."
+            question: "Values-based financial planning means aligning your ___ with what truly brings you happiness, not what ___ others.",
+            blanks: ["spending", "impresses"],
+            options: ["spending", "debt", "impresses", "ignores", "funds"],
+            explanation: "Spending aligned with your genuine values creates satisfaction. Spending to impress others creates debt and dissatisfaction."
           },
           {
             type: "true_false",
-            question: "If a crypto exchange gets hacked and your coins are stolen, government insurance will reimburse you.",
-            correct: false,
-            explanation: "Unlike bank deposits (insured up to $250K in the US by FDIC), cryptocurrency held on exchanges has no government protection if hacked."
-          },
-          {
-            type: "multiple_choice",
-            question: "Why are governments increasing regulation of cryptocurrency?",
-            options: [
-              "Tax compliance, consumer protection, and preventing money laundering",
-              "To gain control of blockchain networks",
-              "To help crypto prices increase",
-              "Because crypto is inherently illegal"
-            ],
-            correct: 0,
-            explanation: "Regulation aims to protect consumers, ensure taxes are paid, and prevent crypto from being used for illegal activities — not to ban it outright."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: "unit-7",
-    title: "Taxes & Government Power",
-    description: "How governments fund the world",
-    color: "from-amber-500 to-red-600",
-    part2: true,
-    lessons: [
-      {
-        id: "7-1",
-        title: "How Taxes Work",
-        studyBrief: "Taxes are mandatory payments to governments that fund public services — roads, schools, military, healthcare. The main types: Income tax (on earnings), Sales tax (on purchases), Property tax (on real estate), and Corporate tax (on business profits). Progressive tax systems charge higher rates as income rises — the US uses tax 'brackets' where only income above each threshold is taxed at the higher rate. A flat tax charges the same percentage to everyone. Sales taxes are regressive — they take a bigger share of income from poorer people who spend proportionally more.",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "What is a progressive tax system?",
-            options: [
-              "Higher earners pay a higher percentage of their income in taxes",
-              "Everyone pays the exact same flat dollar amount",
-              "Only corporations and businesses pay taxes",
-              "Tax rates decrease as personal income rises"
-            ],
-            correct: 0,
-            explanation: "Progressive taxes charge higher rates on higher incomes — the more you earn, the higher your marginal tax bracket rate."
-          },
-          {
-            type: "true_false",
-            question: "Sales tax is an example of a regressive tax because it takes a higher percentage of income from lower earners.",
+            question: "Defining your personal 'enough' and resisting lifestyle inflation is a key strategy for building lasting wealth.",
             correct: true,
-            explanation: "A $10 sales tax represents 10% of $100 income but only 1% of $1,000 income — the same dollar amount hurts lower-income people proportionally more."
-          },
-          {
-            type: "multiple_choice",
-            question: "What is the main purpose of taxes?",
-            options: [
-              "Fund public services like roads, schools, and national defense",
-              "Make wealthy people poorer through redistribution",
-              "Directly control inflation by removing money from circulation",
-              "Primarily reward government workers with high salaries"
-            ],
-            correct: 0,
-            explanation: "Taxes fund shared services everyone uses — from traffic lights and bridges to national defense and public schools."
-          },
-          {
-            type: "word_bank",
-            question: "A ___ tax takes the same percentage from everyone regardless of their ___.",
-            blanks: ["flat", "income"],
-            options: ["flat", "steep", "income", "age", "country"],
-            explanation: "Flat tax = one rate for all. E.g., 15% on everyone's income, whether you earn $20K or $2M."
-          },
-          {
-            type: "multiple_choice",
-            question: "In the US, if you're in the 24% tax bracket, does that mean you pay 24% on ALL your income?",
-            options: [
-              "No — only income above the bracket threshold is taxed at 24%",
-              "Yes — the entire income is taxed at 24%",
-              "No — you pay 24% on your last dollar only",
-              "It depends on whether you file as single or married"
-            ],
-            correct: 0,
-            explanation: "US brackets are marginal — only the portion of income above each threshold gets taxed at that rate. Lower portions are taxed at lower rates."
-          },
-          {
-            type: "true_false",
-            question: "Capital gains tax applies to profits made from selling investments like stocks or property.",
-            correct: true,
-            explanation: "When you sell an asset for more than you paid, the profit (capital gain) is taxable. Long-term gains (held over a year) typically receive lower tax rates than regular income."
-          }
-        ]
-      },
-      {
-        id: "7-2",
-        title: "Government Spending",
-        studyBrief: "Governments spend money on two main categories: mandatory spending (entitlements like Social Security, Medicare — automatic by law) and discretionary spending (military, education, infrastructure — decided annually). When a government spends more than it collects in taxes, it runs a deficit and must borrow money by issuing bonds, adding to the national debt. Fiscal policy is using taxes and spending to influence the economy: during recessions, governments stimulate by spending more and cutting taxes; during overheating, they do the opposite (austerity).",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "What is 'national debt'?",
-            options: [
-              "The total accumulated amount a government owes from past borrowing",
-              "The total private debt owed by all citizens combined",
-              "Trade deficits accumulated over many years",
-              "Unpaid taxes from businesses and individuals"
-            ],
-            correct: 0,
-            explanation: "National debt is the total of all past government budget deficits — money borrowed but not yet repaid, often in the form of government bonds."
-          },
-          {
-            type: "true_false",
-            question: "Fiscal policy refers to how governments use taxes and spending to influence the economy.",
-            correct: true,
-            explanation: "Fiscal policy is the government's economic toolkit — adjusting spending and taxes to stimulate growth or cool down an overheating economy."
-          },
-          {
-            type: "multiple_choice",
-            question: "During a recession, what fiscal policy might a government use?",
-            options: [
-              "Increase spending and cut taxes to stimulate the economy",
-              "Raise taxes to reduce the budget deficit immediately",
-              "Stop all government spending to save money",
-              "Print money without any spending changes"
-            ],
-            correct: 0,
-            explanation: "Governments stimulate recessions with more spending (infrastructure, unemployment benefits) and tax cuts to boost consumer demand."
-          },
-          {
-            type: "multiple_choice",
-            question: "What is a 'budget deficit'?",
-            options: [
-              "When government spending exceeds tax revenue in a given year",
-              "When the national debt reaches $1 trillion",
-              "When tax revenue exceeds government spending",
-              "When a country has a trade imbalance"
-            ],
-            correct: 0,
-            explanation: "A deficit = spending more than you earn in one year. The accumulated total of deficits (and surpluses) equals the national debt."
-          },
-          {
-            type: "true_false",
-            question: "Government bonds are how governments borrow money from investors.",
-            correct: true,
-            explanation: "When governments need to fund deficits, they issue bonds — investors lend money and receive it back with interest after a set period."
-          },
-          {
-            type: "word_bank",
-            question: "Governments fund deficits by issuing ___ — promises to repay investors with ___.",
-            blanks: ["bonds", "interest"],
-            options: ["bonds", "stocks", "interest", "dividends", "taxes"],
-            explanation: "Treasury bonds are government IOUs — investors earn guaranteed interest for lending the government money."
-          }
-        ]
-      },
-      {
-        id: "7-3",
-        title: "Central Banks & Inflation",
-        studyBrief: "Central banks (like the US Federal Reserve, European Central Bank) are independent institutions that manage a country's money supply and interest rates. Their main goals: control inflation (target ~2%) and maximize employment. Their main tool is the federal funds rate — raising rates makes borrowing more expensive, slowing spending and inflation; cutting rates stimulates borrowing and growth. Unlike fiscal policy (government taxes/spending), monetary policy is set by unelected central bank officials, shielded from short-term political pressure.",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "What does the Federal Reserve (central bank) primarily control?",
-            options: [
-              "Interest rates and the money supply",
-              "Government tax rates and budgets",
-              "Individual stock prices on exchanges",
-              "International trade deals and tariffs"
-            ],
-            correct: 0,
-            explanation: "Central banks like the Fed set benchmark interest rates and control money supply — their decisions ripple through the entire economy."
-          },
-          {
-            type: "true_false",
-            question: "High inflation is generally good for people who hold large amounts of cash savings.",
-            correct: false,
-            explanation: "Inflation erodes purchasing power — your cash buys less over time. Bad for savers, but potentially beneficial for borrowers who repay loans with 'cheaper' future dollars."
-          },
-          {
-            type: "word_bank",
-            question: "When inflation is too high, the central bank ___ interest rates to ___ borrowing.",
-            blanks: ["raises", "reduce"],
-            options: ["raises", "lowers", "reduce", "increase", "freeze"],
-            explanation: "Higher interest rates make loans more expensive, slowing spending and investment — cooling down inflationary pressure."
-          },
-          {
-            type: "multiple_choice",
-            question: "What is 'quantitative easing' (QE)?",
-            options: [
-              "A central bank buying assets to inject money into the economy",
-              "Raising taxes to reduce inflation",
-              "Cutting government spending to balance the budget",
-              "Printing money to directly pay citizens"
-            ],
-            correct: 0,
-            explanation: "QE = central bank buys bonds from banks, giving them cash to lend. It lowers long-term rates and stimulates the economy when normal rate cuts aren't enough."
-          },
-          {
-            type: "true_false",
-            question: "Central banks in most democracies operate independently from direct government political control.",
-            correct: true,
-            explanation: "Independence protects monetary policy from short-term political pressure — politicians might want low rates before elections regardless of inflation consequences."
-          },
-          {
-            type: "multiple_choice",
-            question: "The Fed's 'dual mandate' means it aims to control both:",
-            options: [
-              "Inflation AND unemployment",
-              "Taxes AND government spending",
-              "Stock prices AND bond yields",
-              "Trade deficits AND currency strength"
-            ],
-            correct: 0,
-            explanation: "The Fed's two goals are price stability (controlling inflation, targeting ~2%) and maximum employment — sometimes these goals conflict!"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: "unit-8",
-    title: "Build Your Empire",
-    description: "Entrepreneurship & business strategy",
-    color: "from-emerald-500 to-teal-700",
-    part2: true,
-    lessons: [
-      {
-        id: "8-1",
-        title: "Starting a Business",
-        studyBrief: "Starting a business begins with an idea that solves a real problem. A business plan is your roadmap — covering your product, target market, revenue model, and financial projections. Business structure matters: sole proprietorships are simplest but expose personal assets; LLCs and corporations create legal separation (limited liability) protecting your personal wealth if the business fails. Funding options range from bootstrapping (self-funding) to angel investors, venture capital, or bank loans. Your unique value proposition (UVP) is the compelling reason customers choose you over competitors.",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "What is a business plan?",
-            options: [
-              "A document outlining your business goals, strategy, and financial projections",
-              "A legal list of all employees and their salaries",
-              "A government license required to operate",
-              "A type of special business bank account"
-            ],
-            correct: 0,
-            explanation: "A business plan is your roadmap — covering what you'll sell, to whom, how you'll market it, and how you'll make money."
-          },
-          {
-            type: "true_false",
-            question: "An LLC (Limited Liability Company) protects your personal assets if the business fails.",
-            correct: true,
-            explanation: "An LLC creates legal separation between you and the business — creditors generally can't go after your personal savings, home, or car."
-          },
-          {
-            type: "multiple_choice",
-            question: "What is 'bootstrapping' a startup?",
-            options: [
-              "Self-funding your business without outside investors",
-              "Copying a competitor's proven business model exactly",
-              "Receiving a government grant to start operations",
-              "Hiring 100 employees before launching the product"
-            ],
-            correct: 0,
-            explanation: "Bootstrapping = building with your own money, staying lean, and growing organically — keeping full ownership and control."
-          },
-          {
-            type: "word_bank",
-            question: "A unique value ___ explains why customers should choose your business over the ___.",
-            blanks: ["proposition", "competition"],
-            options: ["proposition", "tax", "competition", "government", "bank"],
-            explanation: "Your unique value proposition is your 'why us?' — the compelling reason customers pick you over every alternative."
-          },
-          {
-            type: "multiple_choice",
-            question: "What is an 'angel investor'?",
-            options: [
-              "A wealthy individual who invests in early-stage startups for equity",
-              "A government program providing startup grants",
-              "A bank offering low-interest small business loans",
-              "A nonprofit organization that funds charities"
-            ],
-            correct: 0,
-            explanation: "Angel investors are high-net-worth individuals who invest their own money in early startups, often before venture capital is available."
-          },
-          {
-            type: "true_false",
-            question: "Most new businesses become profitable within their first year of operation.",
-            correct: false,
-            explanation: "The majority of startups take several years to reach profitability — if they get there at all. Most businesses require time to build customers and scale efficiently."
-          }
-        ]
-      },
-      {
-        id: "8-2",
-        title: "Revenue & Profit",
-        studyBrief: "Revenue is all the money your business brings in from sales. Profit is what remains after subtracting all costs — split into gross profit (revenue minus cost of goods sold) and net profit (after ALL expenses including rent, salaries, and taxes). A business can have high revenue but still be unprofitable if costs are too high. Cash flow is equally critical — you can be technically profitable on paper but run out of cash if customers pay late. 'Burn rate' measures how fast a startup spends its cash reserves; 'runway' is how many months until that cash runs out.",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "What's the difference between revenue and profit?",
-            options: [
-              "Revenue is total sales; profit is what's left after all costs",
-              "They mean exactly the same thing in accounting",
-              "Profit is total sales; revenue is what's left after taxes",
-              "Revenue only counts digital or online sales"
-            ],
-            correct: 0,
-            explanation: "Revenue = all money coming in. Profit = Revenue minus ALL expenses. A business can have huge revenue but zero (or negative) profit!"
-          },
-          {
-            type: "true_false",
-            question: "A company can show accounting profit while simultaneously having negative cash flow.",
-            correct: true,
-            explanation: "If customers owe you money (accounts receivable), you show paper profit but have no cash to pay your own bills — many profitable businesses go bankrupt from cash flow problems."
-          },
-          {
-            type: "multiple_choice",
-            question: "What is 'burn rate' for a startup?",
-            options: [
-              "How fast it's spending its cash reserves each month",
-              "How quickly its products fly off shelves",
-              "The rate at which it's gaining new customers",
-              "Monthly tax obligations to the government"
-            ],
-            correct: 0,
-            explanation: "Burn rate = monthly net cash spending. A startup with $1M in the bank burning $100K/month has 10 months of 'runway' before insolvency."
-          },
-          {
-            type: "multiple_choice",
-            question: "What is 'gross margin'?",
-            options: [
-              "Revenue minus the direct cost of producing goods, as a percentage",
-              "Total profit after all expenses including taxes",
-              "The percentage of revenue paid to employees",
-              "Revenue minus marketing costs only"
-            ],
-            correct: 0,
-            explanation: "Gross margin = (Revenue - Cost of Goods Sold) / Revenue. A high gross margin means you keep a large chunk of each sale before overhead costs."
-          },
-          {
-            type: "true_false",
-            question: "A startup with positive net profit can never go bankrupt.",
-            correct: false,
-            explanation: "Even profitable companies can go bankrupt due to cash flow problems — if you can't pay your bills when they're due (even if you'll eventually profit), you're insolvent."
-          },
-          {
-            type: "word_bank",
-            question: "Startup ___ is how many months of spending a company can sustain before running out of ___.",
-            blanks: ["runway", "cash"],
-            options: ["runway", "profit", "cash", "debt", "investors"],
-            explanation: "Runway = cash divided by monthly burn rate. VCs monitor this closely — running out of runway without profitability means the startup fails."
-          }
-        ]
-      },
-      {
-        id: "8-3",
-        title: "Scaling & Valuation",
-        studyBrief: "Scaling means growing revenue faster than costs — a software company can serve millions of users with minimal added cost (high scalability) unlike a restaurant that must hire more staff for every 10 extra customers. Company valuation is the estimated total worth, often calculated as a multiple of revenue or earnings. Venture capitalists (VCs) invest in high-growth startups expecting massive returns from a few big winners. A 'unicorn' is a startup valued at $1B+. When a company goes public through an IPO (Initial Public Offering), it sells shares on the stock exchange.",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "What does a company's 'valuation' represent?",
-            options: [
-              "The estimated total worth of the company based on growth and earnings",
-              "Its exact annual revenue for last year",
-              "The total number of full-time employees",
-              "The total outstanding debt the company owes"
-            ],
-            correct: 0,
-            explanation: "Valuation = what investors believe a company is worth — based on current earnings, growth rate, market potential, and comparable companies."
-          },
-          {
-            type: "true_false",
-            question: "A 'unicorn' is a startup valued at over $1 billion.",
-            correct: true,
-            explanation: "Unicorns (like Uber, Airbnb, SpaceX before going public) are rare billion-dollar startups — hence the mythical name!"
-          },
-          {
-            type: "word_bank",
-            question: "Venture ___ invest in early-stage startups hoping for massive ___ on their investment.",
-            blanks: ["capitalists", "returns"],
-            options: ["capitalists", "bankers", "returns", "losses", "taxes"],
-            explanation: "Venture capitalists (VCs) fund risky early-stage companies, knowing most will fail but expecting a few to become unicorns — more than offsetting the losses."
-          },
-          {
-            type: "multiple_choice",
-            question: "What is an IPO (Initial Public Offering)?",
-            options: [
-              "When a private company first sells its shares to the public on a stock exchange",
-              "When a company issues new products internationally",
-              "When a startup receives its first round of venture funding",
-              "When a business merges with a public company"
-            ],
-            correct: 0,
-            explanation: "An IPO is when a private company 'goes public' — selling shares on a stock exchange for the first time, raising capital while allowing early investors to cash out."
-          },
-          {
-            type: "true_false",
-            question: "A company with high scalability can grow revenue dramatically without proportionally increasing costs.",
-            correct: true,
-            explanation: "That's the power of scalable businesses — software, platforms, and digital products can serve millions more users with almost no additional cost per user."
-          },
-          {
-            type: "multiple_choice",
-            question: "A startup valued at 10x revenue means investors are paying $10 for every $1 of annual sales. This implies:",
-            options: [
-              "Investors expect strong future growth to justify the premium",
-              "The company is highly unprofitable and struggling",
-              "The startup is worth exactly its annual revenue",
-              "The company has been profitable for over 10 years"
-            ],
-            correct: 0,
-            explanation: "High revenue multiples reflect growth expectations — investors pay a premium today betting on much larger future revenues."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: "unit-9",
-    title: "Real Estate Mogul",
-    description: "Build wealth through property",
-    color: "from-rose-500 to-pink-700",
-    part2: true,
-    lessons: [
-      {
-        id: "9-1",
-        title: "How Real Estate Works",
-        studyBrief: "Real estate is land and the buildings on it — one of humanity's oldest investments. Properties generate wealth in two ways: appreciation (value rising over time) and rental income (tenants paying monthly). Historically, real estate appreciates ~3-5% per year, though local markets vary wildly. A REIT (Real Estate Investment Trust) lets you invest in a portfolio of properties like a stock — without being a landlord. 'Equity' is the portion you truly own: property value minus any outstanding mortgage. As you pay down your loan and values rise, equity grows.",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "What does 'appreciation' mean in real estate?",
-            options: [
-              "When property value increases over time",
-              "When you thank your landlord for good service",
-              "The ongoing cost to maintain and repair a property",
-              "A type of adjustable-rate mortgage product"
-            ],
-            correct: 0,
-            explanation: "Appreciation = your property's value going up. Historically, real estate appreciates ~3-5% per year nationally, though local markets vary enormously."
-          },
-          {
-            type: "true_false",
-            question: "A REIT (Real Estate Investment Trust) lets you invest in property without buying real estate directly.",
-            correct: true,
-            explanation: "REITs trade like stocks — you own a share of a portfolio of office buildings, apartments, or malls without being a landlord!"
-          },
-          {
-            type: "multiple_choice",
-            question: "What is 'equity' in real estate?",
-            options: [
-              "The portion of the property you own outright (market value minus remaining debt)",
-              "The monthly rental income the property generates",
-              "The annual property taxes you pay to the government",
-              "The interest rate on your mortgage loan"
-            ],
-            correct: 0,
-            explanation: "Equity = current market value minus your remaining mortgage. As you pay down the loan and the property appreciates, your equity grows."
-          },
-          {
-            type: "multiple_choice",
-            question: "Which of the following is NOT a way real estate generates wealth?",
-            options: [
-              "Guaranteed value — real estate never loses value",
-              "Appreciation — property values rising over time",
-              "Rental income — tenants paying monthly rent",
-              "Tax advantages — mortgage interest deductions"
-            ],
-            correct: 0,
-            explanation: "Real estate absolutely CAN lose value — as the 2008 financial crisis demonstrated dramatically. No investment is guaranteed to rise."
-          },
-          {
-            type: "true_false",
-            question: "Location is the most important factor in determining real estate value.",
-            correct: true,
-            explanation: "'Location, location, location' — the same house in different cities or neighborhoods can differ by 10x in value. Proximity to jobs, schools, and amenities drives prices."
-          },
-          {
-            type: "word_bank",
-            question: "Real estate investors aim for ___ income from tenants and long-term ___ as property values rise.",
-            blanks: ["rental", "appreciation"],
-            options: ["rental", "dividend", "appreciation", "depreciation", "interest"],
-            explanation: "The two pillars of real estate investing: rental income provides monthly cash flow while appreciation builds long-term wealth."
-          }
-        ]
-      },
-      {
-        id: "9-2",
-        title: "Mortgages & Leverage",
-        studyBrief: "A mortgage is a loan using the property itself as collateral. Most buyers put down 10-20% and borrow the rest. This is leverage — using borrowed money to control a larger asset. Leverage amplifies both gains AND losses: if you put 20% down on a $500K home and it rises 10% to $550K, your return on your $100K investment is actually 50%. But if it drops 10%, your $100K is wiped out. Amortization is the process of gradually paying off the loan — early payments are mostly interest, later payments chip away at the principal (actual loan amount).",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "What is a mortgage?",
-            options: [
-              "A loan secured by property used to finance its purchase",
-              "A fixed monthly rent payment to a landlord",
-              "A property insurance policy covering damage",
-              "A special type of tax-advantaged investment account"
-            ],
-            correct: 0,
-            explanation: "A mortgage is a loan where the property is the collateral — if you stop paying, the bank can foreclose (take) the property."
-          },
-          {
-            type: "true_false",
-            question: "Using leverage (borrowed money) in real estate can amplify both gains and losses.",
-            correct: true,
-            explanation: "Leverage magnifies returns in both directions. A 10% property gain on a 20% down payment equals a 50% return on your invested capital — but a 10% drop wipes out your down payment entirely."
-          },
-          {
-            type: "multiple_choice",
-            question: "What does 'amortization' mean for a mortgage?",
-            options: [
-              "Gradually paying off the loan balance through regular scheduled payments",
-              "Selling the property quickly to avoid foreclosure",
-              "Adding penalty fees for late mortgage payments",
-              "Refinancing the loan at a lower interest rate"
-            ],
-            correct: 0,
-            explanation: "Amortization spreads payments over the loan term — early payments are mostly interest (bank profits first), later ones predominantly reduce principal."
-          },
-         {
-  type: "word_bank",
-  question: "A lower ___ rate means lower monthly ___ and less total cost over the loan term.",
-  blanks: ["interest", "payments"],
-  options: ["interest", "payments", "tax", "equity", "rent"],
-  explanation: "Even a 1% lower rate on a $300K mortgage saves tens of thousands of dollars over 30 years. Rate shopping matters enormously!"
-},
-          {
-            type: "multiple_choice",
-            question: "If you buy a $400K home with 20% down ($80K) and it appreciates to $500K, what is your return on investment?",
-            options: [
-              "125% return — you made $100K on an $80K investment",
-              "25% return — the home increased by 25% in value",
-              "20% return — equal to your down payment percentage",
-              "10% return — based on market average appreciation"
-            ],
-            correct: 0,
-            explanation: "This is the power of leverage! $100K gain on $80K invested = 125% ROI, even though the property only rose 25% in value."
-          },
-          {
-            type: "true_false",
-            question: "A fixed-rate mortgage means your monthly payment stays the same for the entire loan term.",
-            correct: true,
-            explanation: "Fixed-rate mortgages lock in your interest rate and payment — great for budgeting and protection against rising rates. Adjustable-rate mortgages (ARMs) can change after an initial period."
-          }
-        ]
-      },
-      {
-        id: "9-3",
-        title: "Rental Income Strategy",
-        studyBrief: "Rental real estate can generate passive income — money flowing in while you sleep. Cash flow is what remains after collecting rent and paying ALL expenses: mortgage, property taxes, insurance, maintenance, vacancy costs, and management fees. The 1% Rule is a quick screening tool: monthly rent should be at least 1% of purchase price for likely positive cash flow. Cap rate (capitalization rate) measures annual return independent of financing. The BRRRR strategy (Buy, Rehab, Rent, Refinance, Repeat) lets investors recycle capital to acquire multiple properties.",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "What is 'cash flow' in rental real estate?",
-            options: [
-              "Rental income minus ALL expenses (mortgage, taxes, repairs, management)",
-              "The total gross rental income before any deductions",
-              "The current market value of the rental property",
-              "Your monthly mortgage payment amount"
-            ],
-            correct: 0,
-            explanation: "Positive cash flow = rent collected exceeds ALL costs. That's true passive income! Negative cash flow means the property costs you money each month."
-          },
-          {
-            type: "true_false",
-            question: "The '1% rule' suggests monthly rent should be at least 1% of the property's purchase price.",
-            correct: true,
-            explanation: "A $200K property should ideally rent for $2,000+/month for likely positive cash flow. It's a quick screening tool — not a guarantee."
-          },
-          {
-            type: "multiple_choice",
-            question: "What is cap rate in real estate investing?",
-            options: [
-              "Annual net operating income divided by property value, as a percentage",
-              "The maximum monthly rent legally allowed under local law",
-              "The annual property tax rate charged by local government",
-              "The ratio of loan amount to property value (LTV ratio)"
-            ],
-            correct: 0,
-            explanation: "Cap rate = Net Operating Income / Property Value. It measures yield independent of financing. Higher cap rate = higher return but often higher risk area."
-          },
-          {
-            type: "multiple_choice",
-            question: "Which of the following is a cost real estate investors often underestimate?",
-            options: [
-              "Vacancy periods when the property sits empty between tenants",
-              "The mortgage payment — always the largest expense",
-              "Property appreciation — it's too unpredictable to estimate",
-              "Tenant screening fees — charged by the government"
-            ],
-            correct: 0,
-            explanation: "Vacancy is a major hidden cost — even 1 month empty per year on a $2,000/month property is $2,000 lost, a 8.3% impact on annual income."
-          },
-          {
-            type: "true_false",
-            question: "A property manager typically charges 8-12% of monthly rent to manage a rental property.",
-            correct: true,
-            explanation: "Professional property management costs 8-12% of rent (plus fees for leasing). It eliminates landlord headaches but significantly impacts cash flow."
-          },
-          {
-            type: "word_bank",
-            question: "Real estate investors aim for ___ cash flow where rent ___ all monthly expenses.",
-            blanks: ["positive", "exceeds"],
-            options: ["positive", "negative", "exceeds", "matches", "avoids"],
-            explanation: "Positive cash flow is the goal — rent exceeding all costs means the property pays for itself and generates income each month."
+            explanation: "Knowing what's enough — and stopping there — is what separates people who build real wealth from those who earn a lot but always feel broke."
           }
         ]
       }
